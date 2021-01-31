@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+Created on : 21 de dez de 2020, 20:04
+    Author     : William Bertoldo
+-->
+<html>
+    <head>
+        <title>Calcule seu IMC | William Bertoldo </title>
+        <meta charset="UTF-8">
+        <style>
+            .IMC{
+                width: 50%;
+                background:#cfcfcf;
+                margin: auto;
+                padding: 8px;
+                border-radius: 25px;
+                font-family: Sans-serif;
+                border: none;
+                text-align: center;
+                box-shadow: 2px 2px 2px 2px #4c576b;
+            }
+            #resultado
+            {
+                color: #0a0;
+                font-size: 300%;
+                 margin:  0px;
+            }
+            #resposta1
+            {
+                 margin:  0px;
+            }
+            #resposta2
+            {
+                 margin:  0px;
+            }
+            #mainArticle{
+              text-align: center;
+              font-size: 100%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <article id="mainArticle">
+            <header>
+                <h1>Calcule o seu IMC</h1>
+            </header>
+                <div class="IMC">
+                    <p>Digite o seu peso :</p>
+                    <input id="peso" placeholder="Ex: 78,300" type="text" value=""/>
+                    <p>Digite a sua altura :</p>
+                    <input id="altura" placeholder="Ex: 1,50" type="text" value=""/><p>
+                    <button id="calcular" type="button" class="calcular">Calcular</button>
+                    <p id="resposta1"></p>
+                    <p id="resultado"></p>
+                    <p id="resposta2"></p>
+                </div>
+            <script type="text/javascript" src="IMC.js"></script>
+            <br>
+        </article>
+    </body>
+</html>
